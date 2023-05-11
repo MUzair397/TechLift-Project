@@ -1,0 +1,24 @@
+.about{
+    /* background-image: url('../../assets/images/image2.jpg'); */
+    background-image: url('../../assets/images/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    color: blue;
+}
+.image {
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 90%;
+}
+.left:hover,
+.image:hover{
+    transform: scale(1.05); /* IE 9 */
+    transform: scale(1.05); /* Safari 3-8 */
+    transition: 0.5s; 
+}

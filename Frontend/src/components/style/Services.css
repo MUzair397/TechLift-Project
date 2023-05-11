@@ -1,0 +1,9 @@
+.img{
+    border-radius: 20px;
+    height: 450px;
+}
+.service-text:hover,
+.img:hover{
+    transform: scale(1.05); /* IE 9 */
+    transition: 0.5s; 
+}

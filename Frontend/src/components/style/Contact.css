@@ -1,0 +1,29 @@
+.contact{
+    background-image: url('../../assets/images/footer.jpg');
+    background-size: cover;
+
+}
+#hr{
+    background-color: #ffff;
+}
+.input-fields{
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: larger;
+    font-style: italic;
+}
+.textarea {
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: larger;
+    font-style: italic;
+}
+.btn{
+    border-radius: 50px;
+}
+.text:hover,
+.input-fields:hover,
+.textarea:hover{
+        transform: scale(1.05); /* IE 9 */
+        transition: 0.5s; 
+}

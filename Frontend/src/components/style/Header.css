@@ -1,0 +1,9 @@
+.header{
+    width: 100%;
+    position: fixed; 
+    transition: all 0.5s;
+    opacity: 0.6;
+}
+.list:hover {
+    color: blue;
+}

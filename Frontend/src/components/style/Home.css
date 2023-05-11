@@ -1,0 +1,11 @@
+.carocel-image {
+    height: 100vh;
+
+}
+.carocell {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 2px 2px blue;
+}

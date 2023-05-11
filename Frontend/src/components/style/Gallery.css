@@ -1,0 +1,24 @@
+.card-image{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #71535d 0%, #81b1af 100%);
+}
+.card-image:hover{
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
+        transition: 0.5s;
+}
+.bg-color{
+    background-color: transparent;
+}
